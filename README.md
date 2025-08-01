@@ -124,7 +124,7 @@ cd ai-blog-generator
 
 ### 2. Create S3 Bucket
 ```bash
-aws s3 mb s3://your-unique-blog-bucket-name --region us-east-2
+aws s3 mb s3://your-unique-blog-bucket-name --region us-east-1
 ```
 
 ### 3. Set Up Lambda Function
