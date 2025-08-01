@@ -3,7 +3,7 @@ import json
 from botocore.exceptions import ClientError
 
 def blog_generation_using_bedrock(blogtopic: str) -> str:
-    client = boto3.client("bedrock-runtime", region_name="us-east-2")
+    client = boto3.client("bedrock-runtime", region_name="us-east-1")
     model_id = "meta.llama3-70b-instruct-v1:0"
 
     prompt = f"Write a 200 words blog on the topic {blogtopic}"
